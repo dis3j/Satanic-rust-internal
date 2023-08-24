@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cheat\Config\base64.h" />
+    <ClInclude Include="Cheat\Config\Config.h" />
+    <ClInclude Include="Cheat\Visuals\GUI.hpp" />
+    <ClInclude Include="Cheat\Visuals\logger.hpp" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\blur\BlurShaders\blur_x.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\blur\BlurShaders\blur_y.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\blur\BlurShaders\default_vs.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\blur\PostProcessing.h" />
+    <ClInclude Include="discord\discord.h" />
+    <ClInclude Include="discord\disrpc\Includes\discord_register.h" />
+    <ClInclude Include="discord\disrpc\Includes\discord_rpc.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\backoff.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\connection.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\msg_queue.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\allocators.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\document.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\encodedstream.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\encodings.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\error\en.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\error\error.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\filereadstream.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\filewritestream.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\fwd.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\clzll.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\itoa.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\meta.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\pow10.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\regex.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\stack.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\strtod.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\internal\swap.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\memorybuffer.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\memorystream.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\pointer.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\prettywriter.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\rapidjson.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\reader.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\schema.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\stream.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\stringbuffer.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rapidjson\writer.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\rpc_connection.h" />
+    <ClInclude Include="discord\disrpc\SourceFiles\serialization.h" />
+    <ClInclude Include="discord\include\discord_register.h" />
+    <ClInclude Include="discord\include\discord_rpc.h" />
+    <ClInclude Include="shader\inc.h" />
+    <ClInclude Include="shader\shader3.hpp" />
+    <ClInclude Include="shader\shader1.hpp" />
+    <ClInclude Include="Utils\Internet.h" />
+    <ClInclude Include="Cheat\Visuals\menu\Elements\Button.hpp" />
+    <ClInclude Include="Utils\bytes_font.h" />
+    <ClInclude Include="Cheat\Visuals\menu\Elements\checkbox.hpp" />
+    <ClInclude Include="Utils\class.h" />
+    <ClInclude Include="Cheat\Visuals\menu\Elements\combo.hpp" />
+    <ClInclude Include="Utils\json.hpp" />
+    <ClInclude Include="Utils\Math\crc32.h" />
+    <ClInclude Include="Cheat\Game\gamethread.h" />
+    <ClInclude Include="Cheat\Hooks\defs.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imgui_tricks.hpp" />
+    <ClInclude Include="Utils\Il2cpp\lazy_importer.hpp" />
+    <ClInclude Include="Cheat\Visuals\logsystem.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imgui_freetype.h" />
+    <ClInclude Include="Cheat\Visuals\menu\Elements\childs.hpp" />
+    <ClInclude Include="Cheat\Misc\other.hpp" />
+    <ClInclude Include="Cheat\Game\game.h" />
+    <ClInclude Include="Cheat\Render.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\Shadows.h" />
+    <ClInclude Include="Cheat\Visuals\menu\Elements\slider.hpp" />
+    <ClInclude Include="Cheat\Hooks\offsets.h" />
+    <ClInclude Include="Cheat\Misc\aim.h" />
+    <ClInclude Include="Cheat\Game\entities.h" />
+    <ClInclude Include="Cheat\Visuals\esp.h" />
+    <ClInclude Include="Cheat\Misc\misc.h" />
+    <ClInclude Include="Cheat\config.h" />
+    <ClInclude Include="Cheat\Hooks\detours\detours.h" />
+    <ClInclude Include="Cheat\Hooks\hooks.h" />
+    <ClInclude Include="Utils\Il2cpp\il2cpp.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imconfig.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imgui.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imgui_impl_dx11.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imgui_internal.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imgui_stdlib.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imstb_rectpack.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imstb_textedit.h" />
+    <ClInclude Include="Cheat\Visuals\menu\imgui\imstb_truetype.h" />
+    <ClInclude Include="Cheat\Visuals\Rendering.h" />
+    <ClInclude Include="Cheat\Visuals\menu\menu.h" />
+    <ClInclude Include="Cheat\Hooks\minhook\include\MinHook.h" />
+    <ClInclude Include="Cheat\Hooks\minhook\src\buffer.h" />
+    <ClInclude Include="Cheat\Hooks\minhook\src\HDE\hde32.h" />
+    <ClInclude Include="Cheat\Hooks\minhook\src\HDE\hde64.h" />
+    <ClInclude Include="Cheat\Hooks\minhook\src\HDE\pstdint.h" />
+    <ClInclude Include="Cheat\Hooks\minhook\src\HDE\table32.h" />
+    <ClInclude Include="Cheat\Hooks\minhook\src\HDE\table64.h" />
+    <ClInclude Include="Cheat\Hooks\minhook\src\trampoline.h" />
+    <ClInclude Include="Utils\Il2cpp\Memory.h" />
+    <ClInclude Include="Utils\Math\math.h" />
+    <ClInclude Include="Startup.h" />
+    <ClInclude Include="Utils\Math\structs.h" />
+    <ClInclude Include="Cheat\Misc\f_object.h" />
+    <ClInclude Include="Utils\nlohmann\adl_serializer.hpp" />
+    <ClInclude Include="Utils\nlohmann\byte_container_with_subtype.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\abi_macros.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\conversions\from_json.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\conversions\to_chars.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\conversions\to_json.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\exceptions.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\hash.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\input\binary_reader.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\input\input_adapters.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\input\json_sax.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\input\lexer.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\input\parser.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\input\position_t.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\iterators\internal_iterator.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\iterators\iteration_proxy.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\iterators\iterator_traits.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\iterators\iter_impl.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\iterators\json_reverse_iterator.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\iterators\primitive_iterator.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\json_custom_base_class.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\json_pointer.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\json_ref.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\macro_scope.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\macro_unscope.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\meta\call_std\begin.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\meta\call_std\end.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\meta\cpp_future.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\meta\detected.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\meta\identity_tag.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\meta\is_sax.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\meta\std_fs.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\meta\type_traits.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\meta\void_t.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\output\binary_writer.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\output\output_adapters.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\output\serializer.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\string_concat.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\string_escape.hpp" />
+    <ClInclude Include="Utils\nlohmann\detail\value_t.hpp" />
+    <ClInclude Include="Utils\nlohmann\json.hpp" />
+    <ClInclude Include="Utils\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="Utils\nlohmann\ordered_map.hpp" />
+    <ClInclude Include="Utils\nlohmann\thirdparty\hedley\hedley.hpp" />
+    <ClInclude Include="Utils\nlohmann\thirdparty\hedley\hedley_undef.hpp" />
+    <ClInclude Include="Utils\sounds.h" />
+    <ClInclude Include="Utils\vars.h" />
+    <ClInclude Include="Utils\Math\weapons.h" />
+    <ClInclude Include="Utils\VMProtectSDK.h" />
+    <ClInclude Include="Utils\xorstr.h" />
+    <ClInclude Include="Cheat\Visuals\menu\Elements\tap.hpp" />
+    <ClInclude Include="Utils\Math\vector.h" />
+    <ClInclude Include="winternl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cheat\Config\Config.cpp" />
+    <ClCompile Include="Cheat\Visuals\GUI.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\blur\PostProcessing.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui_tricks.cpp" />
+    <ClCompile Include="discord\Discord.cpp" />
+    <ClCompile Include="discord\disrpc\SourceFiles\connection_win.cpp" />
+    <ClCompile Include="discord\disrpc\SourceFiles\discord_register_win.cpp" />
+    <ClCompile Include="discord\disrpc\SourceFiles\discord_rpc.cpp" />
+    <ClCompile Include="discord\disrpc\SourceFiles\rpc_connection.cpp" />
+    <ClCompile Include="discord\disrpc\SourceFiles\serialization.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui_draw.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui_stdlib.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Cheat\Hooks\minhook\src\buffer.c" />
+    <ClCompile Include="Cheat\Hooks\minhook\src\HDE\hde32.c" />
+    <ClCompile Include="Cheat\Hooks\minhook\src\HDE\hde64.c" />
+    <ClCompile Include="Cheat\Hooks\minhook\src\hook.c" />
+    <ClCompile Include="Cheat\Hooks\minhook\src\trampoline.c" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui_demo.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui_freetype.cpp" />
+    <ClCompile Include="Cheat\Visuals\menu\imgui\imgui_tables.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="includes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Cheat\Hooks\detours\detours.lib" />
+    <Library Include="freetype\freetype.lib" />
+    <Library Include="VMProtectSDK32.lib" />
+    <Library Include="VMProtectSDK64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="discord\disrpc\SourceFiles\CMakeLists.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{8C3D3A70-1F95-4048-B4DD-BD9BBEDA1BE9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>plusminus</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Satanic.su</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Fleckex\Desktop\dxsdk-master\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Fleckex\Desktop\dxsdk-master\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Fleckex\Desktop\dxsdk-master\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Fleckex\Desktop\dxsdk-master\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>Utils;D:\Main\Rust Include\Include;freetype\include;C:\Users\oxunem\Desktop\plusminus\plusminus\d;C:\Users\yty\Desktop\zgui-legacy\zgui-legacy\src;C:\Users\yty\Documents\GitHub\plusminus\plusminus\d;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Main\Rust Include\Lib\x64;freetype;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Samples\C++\Effects11\;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <GenerateManifest>false</GenerateManifest>
+    <IntDir>E:\sources\Loader-Oreo-main\x64\Debug</IntDir>
+    <OutDir>E:\sources\Loader-Oreo-main\x64\Debug</OutDir>
+    <TargetName>HitScan</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\Fleckex\Desktop\dxsdk-master\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Fleckex\Desktop\dxsdk-master\Lib\x64;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Samples\C++\Effects11\;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <GenerateManifest>false</GenerateManifest>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;DXDLLRENDER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;DXDLLRENDER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;DXDLLRENDER_EXPORTS;_WINDOWS;_USRDLL;IMGUI_DEFINE_MATH_OPERATORS;D3D11HOOK_EXPORTS;JM_XORSTR_DISABLE_AVX_INTRINSICS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>false</ExceptionHandling>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AssemblyDebug>true</AssemblyDebug>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;DXDLLRENDER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>false</ExceptionHandling>
+      <CreateHotpatchableImage>false</CreateHotpatchableImage>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AssemblyDebug>false</AssemblyDebug>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
